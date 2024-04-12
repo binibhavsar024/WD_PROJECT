@@ -1,0 +1,616 @@
+/* ------------------------------ THE START ------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ------------------------------ MAIN ------------------------------ */
+body {
+    background: url(pictures/body\ background.png);
+    background-size: cover;
+}
+
+/* ------------------------------ DIV 01 ------------------------------ */
+.div01 {
+    width: auto;
+    background-color: white;
+    margin: 30px;
+    border-radius: 0px 30px 30px 30px;
+    font-family: 'roboto';
+}
+
+/* ------------------------------ DIV 01 NAVIGATION BAR ------------------------------ */
+nav {
+    background: #111111;
+    height: 39px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.head {
+    color: white;
+    font-size: 30px;
+}
+
+nav>a {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+nav>a:hover {
+    color: white;
+}
+
+/* ------------------------------ DIV 01 HIDE DIV ------------------------------ */
+.divHide {
+    display: none;
+    position: relative;
+    top: 1%;
+    right: 0;
+    float: right;
+}
+
+.button {
+    display: block;
+    color: white;
+    background-color: #111111;
+    border: none;
+    font-size: 30px;
+    position: relative;
+}
+
+.button>div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.divHide:hover>.hide {
+    justify-content: space-between;
+    display: block;
+    background-color: #111111;
+    color: black;
+    width: 90vw;
+    float: left;
+}
+
+.hide {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -82.4vw;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 30px;
+    height: fit-content;
+    border-radius: 0px 0px 15px 15px;
+    transition: all .3s ease;
+    transform-origin: top;
+}
+
+.hide>a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #111111;
+    margin: 15px;
+    padding-left: 13%;
+}
+
+/* ------------------------------ DIV 01 CONTENT ------------------------------ */
+.div01_content {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.div01_paragraph {
+    font-size: 18px;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+/* ------------------------------ DIV 01 HEAD ------------------------------ */
+.div01_head {
+    width: auto;
+    margin: 20px;
+}
+
+.div01_head_b {
+    font-size: 50px;
+    color: black;
+}
+
+.div01_head_p {
+    font-size: 50px;
+    color: gray;
+}
+
+/* ------------------------------ DIV 01 ROUND ------------------------------ */
+.div01_round_div {
+    display: flex;
+}
+
+.div01_round {
+    height: 10px;
+    width: 10px;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 50px 10px;
+}
+
+/* ------------------------------ DIV 01 IMAGE ------------------------------ */
+.div01_image_div {
+    width: 196vw;
+    height: auto;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    background-color: #c2c2c2;
+    border-radius: 10px;
+}
+
+.div01_image_div>img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* ------------------------------ DIV 02 ------------------------------ */
+.div02 {
+    width: auto;
+    margin: 30px;
+}
+
+/* ------------------------------ DIV 02 HEAD ------------------------------ */
+.div02_head {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div02_head_b {
+    font-size: 50px;
+    color: white;
+    padding-right: 15px;
+}
+
+.div02_head_p {
+    font-size: 50px;
+    color: white;
+    padding-left: 15px;
+}
+
+/* ------------------------------ DIV 02 CONTENT ------------------------------ */
+.div02_content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div02_paragraph {
+    color: white;
+    margin: 5% 8% 0% 3%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ------------------------------ DIV 02 ROUND ------------------------------ */
+.div02_round_div {
+    display: flex;
+    margin: 5% 3%;
+
+}
+
+.div02_round {
+    height: 10px;
+    width: 10px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+/* ------------------------------ DIV 02 IMAGE ------------------------------ */
+.div02_image {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5% 0%;
+    height: fit-content;
+}
+
+.div02_space {
+    height: 20px;
+    float: right;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+.div02_image_div {
+    width: 210px;
+    height: 280px;
+    background-color: #c2c2c2;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.div02_image_div>img {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------ DIV 03 ------------------------------ */
+.div03 {
+    width: auto;
+    padding: 30px;
+    background: url(pictures/div\ 03\ background.png);
+    background-size: cover;
+}
+
+/* ------------------------------ DIV 03 HEAD ------------------------------ */
+.collaborations {
+    display: flex;
+    justify-content: center;
+    margin: 50px 30px;
+    padding-top: 50px;
+}
+
+.collaborations_b {
+    margin: 10px 40px;
+    font-size: 90px;
+    color: black;
+}
+
+/* ------------------------------ DIV 03 CONTENT ------------------------------ */
+.div03_content_01 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 125px;
+}
+
+.div03_text {
+    width: 50%;
+}
+
+.div03_title_container {
+    display: flex;
+    margin: 50px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div03_number_01 {
+    font-size: 100px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.div03_headContainer {
+    margin-top: 0px;
+}
+
+.div03_head {
+    font-size: 45px;
+}
+
+.div03_container {
+    display: flex;
+}
+
+.div03_paragraph {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+/* ------------------------------ DIV 03 ROUND ------------------------------ */
+.div03_round_div {
+    margin-left: 90px;
+    display: flex;
+}
+
+.div03_round {
+    height: 10px;
+    width: 10px;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+/* ------------------------------ DIV 03 IMAGE ------------------------------ */
+.div03_image_div {
+    max-width: 32%;
+    height: auto;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #c2c2c2;
+    border-radius: 60px;
+    box-shadow: 0px 0px 40px 20px gray inset;
+}
+
+.div03_image_div>img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 58px;
+}
+
+.div03_image_div_767 {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: #c2c2c2;
+    border-radius: 60px;
+    box-shadow: 0px 0px 40px 20px gray inset;
+}
+
+.div03_image_div_767>img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 58px;
+}
+
+/* ------------------------------ DIV 04 ------------------------------ */
+.div04 {
+    width: auto;
+    margin: 30px;
+}
+
+/* ------------------------------ DIV 04 HEAD ------------------------------ */
+.div04_head {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.div04_head_b {
+    font-size: 50px;
+    color: white;
+    padding-right: 15px;
+}
+
+.div04_head_p {
+    font-size: 50px;
+    color: white;
+    padding-left: 15px;
+}
+
+/* ------------------------------ DIV 04 CONTENT ------------------------------ */
+.div04_paragraph {
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div04_paragraph>div {
+    margin: 30px 0px;
+}
+
+/* ------------------------------ DIV 04 ROUND ------------------------------ */
+.div04_round_div {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.div04_round {
+    height: 40px;
+    width: 40px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 5px 20px;
+}
+
+/* ------------------------------ DIV 05 ------------------------------ */
+.div05 {
+    width: auto;
+    margin: 30px;
+}
+
+/* ------------------------------ DIV 05 CONTENT ------------------------------ */
+.div05_content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.div05_flex_block {
+    display: block;
+    width: 50%;
+}
+
+.div05_head {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.div05_head_b {
+    font-size: 30px;
+    color: white;
+    padding-left: 35px;
+    margin: 10px 0px;
+}
+
+.div05_head_p {
+    font-size: 20px;
+    color: white;
+    margin: 10px 20px;
+}
+
+.div05_down {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 80px;
+    color: white;
+}
+
+.div05_down_p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+/* ------------------------------ DIV 05 ROUND ------------------------------ */
+.div05_round_div {
+    margin: 20px 50px;
+    display: flex;
+}
+
+.div05_round {
+    height: 40px;
+    width: 40px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+/* ------------------------------ DIV 05 IMAGE ------------------------------ */
+.div05_image_div {
+    width: 80%;
+    height: auto;
+    margin: 20px 40px;
+    margin-bottom: 50px;
+    background-color: #c2c2c2;
+    border-radius: 10px;
+}
+
+.div05_image_div>img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* ------------------------------ DIV 06 ------------------------------ */
+.div06 {
+    width: auto;
+    padding: 30px;
+    background: url(pictures/div\ 03\ background.png);
+    background-size: cover;
+}
+
+/* ------------------------------ DIV 06 HEAD ------------------------------ */
+.div06_head {
+    display: flex;
+}
+
+.div06_head_b {
+    font-size: 100px;
+}
+
+/* ------------------------------ DIV 06 CONTENT ------------------------------ */
+.div06_content {
+    margin: 80px 100px;
+}
+
+.div06_title {
+    font-size: 20px;
+}
+
+.div06_paragraph {
+    text-align: justify;
+    font-size: 24px;
+    margin: 20px 0% 20px 60%;
+}
+
+/* ------------------------------ DIV 06 ROUND ------------------------------ */
+.div06_round_div {
+    margin-left: 30%;
+    display: flex;
+}
+
+.div06_round {
+    height: 30px;
+    width: 30px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 60px 10px 0px 10px;
+}
+
+/* ------------------------------ DIV 07 ------------------------------ */
+.div07 {
+    width: auto;
+    margin: 30px;
+}
+
+/* ------------------------------ DIV 07 CONTENT ------------------------------ */
+.div07_list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.div07_flex_block {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+}
+
+.div07_content {
+    margin: 30px 0px;
+}
+
+.div07_head_b {
+    color: white;
+    font-size: 30px;
+}
+
+.div07_content>a {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.div07_content>a:hover {
+    color: white;
+}
+
+.div07_down_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.div07_down_p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ------------------------------ THE END ------------------------------ */

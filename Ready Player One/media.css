@@ -1,0 +1,359 @@
+/* ------------------------------ THE START ------------------------------ */
+@media screen and (max-width: 5000px) {
+
+    /* ------------------------------ DIV 01 ------------------------------ */
+    nav {
+        width: 70%;
+    }
+
+    .divHide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* ------------------------------ DIV 01 ------------------------------ */
+    nav {
+        width: auto;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .div01_content {
+        display: block;
+        margin: 5% 10%;
+    }
+
+    .divHide {
+        display: none;
+    }
+
+    .div01_paragraph {
+        width: auto;
+        font-size: 18px;
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+
+    .div01_image_div {
+        width: 50%;
+    }
+
+    /* ------------------------------ DIV 02 ------------------------------ */
+    .div02_content {
+        display: block;
+        width: auto;
+        margin: 5%;
+    }
+
+    .div02_paragraph {
+        width: auto;
+        font-size: 18px;
+        margin: 5%;
+    }
+
+    .div02_image {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div02_image_div {
+        width: 90%;
+        height: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #c2c2c2;
+        border-radius: 10px;
+    }
+
+    /* ------------------------------ DIV 03 ------------------------------ */
+    .collaborations_b {
+        font-size: 70px;
+    }
+
+    .div03_title_container {
+        margin: 40px 50px;
+    }
+
+    .div03_number_01 {
+        font-size: 70px;
+    }
+
+    .div03_head {
+        font-size: 30px;
+    }
+
+    .div03_round_div {
+        margin-left: 40px;
+    }
+
+    .div03_paragraph {
+        margin-left: 50px;
+    }
+
+    .div03_image_div {
+        border-radius: 40px;
+    }
+
+    .div03_image_div>img {
+        border-radius: 39px;
+    }
+
+    /* ------------------------------ DIV 06 ------------------------------ */
+    .div06_content {
+        margin: 50px 60px;
+    }
+
+    .div06_title {
+        font-size: 17px;
+    }
+
+    .div06_head_b {
+        font-size: 70px;
+    }
+
+    .div06_paragraph {
+        font-size: 20px;
+        margin: 20px 0% 20px 50%;
+    }
+
+    .div06_round_div {
+        margin-left: 25%;
+    }
+
+    .div06_round {
+        height: 25px;
+        width: 25px;
+        margin: 30px 10px 0px 10px;
+    }
+
+    /* ------------------------------ DIV 07 ------------------------------ */
+    .div07_head_b {
+        font-size: 22px;
+    }
+
+    .div07_content>a {
+        font-size: 17px;
+    }
+
+    .div07_down_p {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .div07_down_p1 {
+        margin-top: 30px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* ------------------------------ DIV 01 ------------------------------ */
+    nav {
+        justify-content: space-between;
+        border-radius: 0px;
+    }
+
+    nav>a {
+        display: none;
+    }
+
+    .divHide {
+        display: block;
+    }
+
+    .div01_head_b {
+        font-size: 40px;
+    }
+
+    .div01_head_p {
+        font-size: 35px;
+    }
+
+    /* ------------------------------ DIV 02 ------------------------------ */
+    .div02_head_b {
+        font-size: 40px;
+        padding-right: 7px;
+    }
+
+    .div02_head_p {
+        font-size: 35px;
+        padding-left: 7px;
+    }
+
+    /* ------------------------------ DIV 03 ------------------------------ */
+    .div03_content_01 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .collaborations_b {
+        margin: 50px 30px;
+        font-size: 40px;
+    }
+
+    .div03_title_container {
+        margin: 40px 50px;
+    }
+
+    .div03_text {
+        width: 100%;
+    }
+
+    .div03_number_01 {
+        font-size: 70px;
+    }
+
+    .div03_head {
+        font-size: 30px;
+    }
+
+    .div03_round_div {
+        margin-left: 40px;
+    }
+
+    .div03_paragraph {
+        margin-left: 50px;
+    }
+
+    .div03_image_div {
+        display: none;
+    }
+
+    .div03_image_div_767 {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ------------------------------ DIV 04 ------------------------------ */
+    .div04_head_b {
+        font-size: 40px;
+        padding-right: 7px;
+    }
+
+    .div04_head_p {
+        font-size: 40px;
+        padding-left: 7px;
+    }
+
+    .div04_round {
+        height: 30px;
+        width: 30px;
+        margin: 5px 20px;
+    }
+
+    .div04_paragraph {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    /* ------------------------------ DIV 05 ------------------------------ */
+    .div05_content {
+        display: block;
+        justify-content: center;
+        width: 100%;
+        margin: 0% 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div05_flex_block {
+        display: block;
+        width: 100%;
+    }
+
+    .div05_head {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 40px;
+    }
+
+    .div05_head_b {
+        font-size: 40px;
+        padding-right: 7px;
+    }
+
+    .div05_head_p {
+        font-size: 40px;
+        padding-left: 7px;
+    }
+
+    .div05_round_div {
+        margin: 20px 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div05_round {
+        height: 30px;
+        width: 30px;
+        border: 4px solid white;
+        border-radius: 50%;
+        margin: 5px 10px;
+    }
+
+    .div05_image_div {
+        width: 60%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .div05_image_div>img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    /* ------------------------------ DIV 06 ------------------------------ */
+    .div06_content {
+        margin: 20px 0px;
+    }
+
+    .div06_title {
+        font-size: 14px;
+    }
+
+    .div06_head_b {
+        font-size: 45px;
+    }
+
+    .div06_paragraph {
+        font-size: 16px;
+        margin: 20px 0% 20px 40%;
+    }
+
+    .div06_round_div {
+        margin-left: 10%;
+    }
+
+    .div06_round {
+        height: 15px;
+        width: 15px;
+        margin: 20px 10px 0px 10px;
+    }
+
+    /* ------------------------------ DIV 07 ------------------------------ */
+    .div07_flex_block {
+        display: block;
+    }
+
+    .div07_down_p {
+        font-size: 16px;
+    }
+
+    .div07_down_p1 {
+        font-size: 14px;
+    }
+}
+
+/* ------------------------------ THE END ------------------------------ */
